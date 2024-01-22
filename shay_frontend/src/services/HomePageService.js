@@ -1,10 +1,11 @@
 import AppDataService from "./AppDataService";
 
 const COMMON_BASE = "api";
+const templateID = process.env.REACT_APP_TEMPLATE_ID;
 
 export default class HomePageService {
     static async getTemplatesList(id) {
-        return await AppDataService.get(`${COMMON_BASE}/poster/template/65ae250e7c699f72862a4daa`);
+        return await AppDataService.get(`${COMMON_BASE}/poster/template/${templateID}`);
     }
     static async postTemplateData(data) {
         return await AppDataService.post(`${COMMON_BASE}/poster/generate`, data);
