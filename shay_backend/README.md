@@ -1,14 +1,18 @@
-Install the dependencies
+1. Clone the repository
+
+2. Navigate to the project directory
+
+3. Install the dependencies
 ```bash
 npm install
 ```
 
-Set the environment variables
+4. Set the environment variables
 ```bash
-cp .env.example .env
+Make sure to update the .env file with the required configuration settings as per .env.example
 ```
 
-Run the Application
+5. Run the Application
 ```bash
 npm run dev
 ```
