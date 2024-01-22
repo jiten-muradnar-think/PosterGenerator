@@ -24,7 +24,7 @@ Make sure to update the .env file with the required configuration settings as pe
 ```bash
 npm run dev
 ```
-6. Retrieve the content of the `template.html` file and save it in the `template` field of the `postertemplates` table within the MongoDB database named `shay`. Obtain the generated ID from the database after saving the template. Subsequently, update the generated ID in the frontend's `.env` file under the variable `TEMPLATE_ID`.
+6. Retrieve the content of the `template.html` file and save it in the `template` field of the `postertemplates` table within the MongoDB database named `shay`. Obtain the generated ID from the database after saving the template. Subsequently, update the generated ID in the frontend's `.env` file under the variable `REACT_APP_TEMPLATE_ID`.
 
 # FRONTEND Installation 
 
